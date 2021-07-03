@@ -1,0 +1,26 @@
+/* nagybetûs stílus */
+
+@import url('alap.css');
+/* importáljuk az alapstílust, és felüldefiniáljuk a megfelelõ értékeket az új szabályokkal */
+body {
+	font-size:2em;		/* kétszeres betûméret legyen az alapbeállítás*/	
+}
+
+a#nagybetu {display: none;}		/* a Negybetûs változat ne jelenjen meg, hiszen most azt látjuk */
+a#normalbetu {display: block;
+	background-image:url("../kepek/ikonkeszlet.png");
+	background-position:-330px 0px;
+	background-repeat:no-repeat;
+	width:60px;		/* szélesség */
+	height:60px;		/* magasság*/
+	float:right;		}	/* A Normál változat jelenjen meg a menüben*/
+
+header, main, footer, #header, #tartalom, #footer {
+	width:90%;			/* megnöveljük a blokkok szélességét 90%-ra*/
+	max-width:1200px;	/* a max szélesség 1200px legyen*/
+	}
+	
+#rendezvenyszervezes {
+	-webkit-column-count: 1;
+}
+			

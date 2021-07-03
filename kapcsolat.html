@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Kapcsolat - CAMP Fesztivál</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/alap.css" title="normal">
+	<link rel="stylesheet" type="text/css" href="css/alap_kapcs.css" title="normal">
+	<link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+	<script src="scripts/styleswitcher.js"></script>
+</head>
+<body>
+<nav class="kipozicional">
+	<a href="#tartalom">Ugrás a tartalomra</a>
+</nav>
+<header>
+	<a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span></a>
+	<a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span></a>
+</header>
+<nav id="oldalmenu">
+   <ul>
+	 <a href="index.html"><li>CAMP Fesztivál</li></a>
+	 <a href="jelentkezes.html"><li>Jelentkezés</li></a>
+	 <a href="programok.html"><li>Programok</li></a>
+	 <a href="bufe.html"><li>Büfé</li></a>
+	 <a href="kapcsolat.html"><li>Kapcsolat</li></a>
+   </ul>
+</nav>
+
+
+<main id="kapcsolat">
+<section  id="elerhetosegek">
+<h1>Helyszín</h1>
+<p>Minden felmerülő kérdésre örömmel válaszolunk, fordulj hozzánk bizalommal!</p>
+	<ul>
+	<li><strong>Tókert Kemping és panzió</strong></li>
+	<li>2337 Délegyháza, Nomád part 1.</li>
+	<li>E-mail cím: hashtag@campfesztival.hu</li>
+	</ul>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="350" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=d%C3%A9legyh%C3%A1za%2C%20nom%C3%A1d%20part%201.&t=&z=13&ie=UTF8&iwloc=&output=embed" scrolling="yes"></iframe></div></div>
+</section>
+
+<section  id="ajanlatkeres">
+<h1>Tudakozó</h1>
+<div class="ajanlat">
+  
+  <form method="post" action="mailto:hashtag@campfesztival.hu">
+    <label for="tname"><strong>Név (kötelező):</strong></label><br>
+    <input type="text"  size="40" id="tname" name="teljesname" maxlength="40" placeholder="Neved.." required>
+	<br>
+    <label for="email"><strong>E-mail cím (kötelező):</strong></label><br>
+    <input type="text"  size="40" id="email" name="emailaddr" maxlength="40" placeholder="E-mail címed.." required>
+	<br>
+    <label for="phone"><strong>Telefonszám:</strong></label><br>
+    <input type="text"  size="40" id="phone" name="telszam" maxlength="20" placeholder="+36 ..">
+	<br>
+	<label for="phone"><strong>Visszahívást kérek:</strong></label>
+    <input type="checkbox" id="callback" name="visszhiv"><br>
+	<br>
+    <strong>Tárgy:</strong><br>
+      <input type="radio" name="subject">Jelentkezési probléma<br>
+	  <input type="radio" name="subject">Szállás<br>
+	  <input type="radio" name="subject">Egyéb<br>	  
+	<br>
+    <label for="content"><strong>Üzenet:</strong></label><br>
+    <textarea cols="50" rows="10" id="content" name="szoveg" maxlength="500" placeholder="Írj valamit.."></textarea>
+	<br>
+	<input type="reset" value="Alaphelyzet">
+    <input type="submit" value="Elküld">
+  </form>
+</div>
+</section>
+</main>
+
+<footer>
+	<div class="copyright">2019. - Minden jog fenntartva - <a href="http://alapitvany.elte.hu">ELTE TTK Hallgatói Alapítvány </a> - <a href="ADATVÉDELMI-TÁJÉKOZTATÓ-1.pdf">adatkezelési tájékoztató </a></div>
+	<a id="insta" href="https://instagram.com/campfesztival" target="_blank"><span class="ikon"></span></a>
+	<a id="facebook" href="https://facebook.com/campfesztival" target="_blank"><span class="ikon"></span></a>
+</footer>
+
+</body>
+</html>
