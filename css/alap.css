@@ -42,7 +42,7 @@ header, #header {
 	padding-bottom:0;					/* alsó kitöltés lenullázása */
 	position:relative;
 	height:300px;
-	background-image:url('../kepek/CAMP_cover_5.jpg');
+	background-image:url('../kepek/camp2021.png');
 	background-position:center top/*, left bottom*/;	/* háttérkép kezdőpozíciók beállítása */
 	background-repeat: no-repeat;
 	background-size:cover;	
