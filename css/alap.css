@@ -41,7 +41,7 @@ header, #header {
 	border-radius: 10px 10px 0 0 ; 		/*bal felső és jobb felső sarok lekerekítése */
 	padding-bottom:0;					/* alsó kitöltés lenullázása */
 	position:relative;
-	height:300px;
+	height:380px;
 	background-image:url('../kepek/camp2021.png');
 	background-position:center top/*, left bottom*/;	/* háttérkép kezdőpozíciók beállítása */
 	background-repeat: no-repeat;
